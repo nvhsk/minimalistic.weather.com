@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,600;1,100;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <title>minimalistic weather</title>
+  </head>
+  <body>
+    <div class="leftside">
+      <h2>minimalistic.weather.com</h2>
+      <h1><span id="degrees">02°</span> <span id="city">Hamburg</span></h1>
+      <div id="date"></div>
+    </div>
+    <div class="rightside">
+      <nav>
+        <form class="searchBar" id="search-form">
+          <input
+            type="search"
+            placeholder="Enter your city"
+            autofocus="on"
+            autocomplete="off"
+            id="city-input"
+          />
+        </form>
+        <!-- <div class="col-1 icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="col-1 icon">
+          <i class="fa-solid fa-house"></i>
+        </div> -->
+      </nav>
+
+      <main>
+        <div class="weatherInfo">
+          <div class="wInfo">
+            <span class="info">Highest temperature</span>
+          </div>
+          <div class="wInfo">
+            <span class="info">Lovest temperature</span>
+          </div>
+        </div>
+        <hr />
+        <div class="futureWeather">
+          <div class="futureDay">
+            <span class="day">Tomorrow</span>
+          </div>
+          <div class="futureDay">
+            <span class="day">Friday</span>
+          </div>
+          <div class="futureDay">
+            <span class="day">Saturday</span>
+          </div>
+          <div class="futureDay">
+            <span class="day">Sunday</span>
+          </div>
+          <div class="futureDay">
+            <span class="day">Monday</span>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <div class="aside">
+      <div class="nav2">
+        <div class="col-1 icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="col-1 icon">
+          <i class="fa-solid fa-house"></i>
+        </div>
+      </div>
+      <main>
+        <div class="weatherInfo">
+          <div class="wInfo">
+            <span>05°</span>
+          </div>
+          <div class="wInfo">
+            <span>01°</span>
+          </div>
+        </div>
+        <hr />
+        <div class="futureWeather">
+          <div class="futureDay">
+            <span>03°</span>
+          </div>
+          <div class="futureDay">
+            <span>01°</span>
+          </div>
+          <div class="futureDay">
+            <span>05°</span>
+          </div>
+          <div class="futureDay">
+            <span>06°</span>
+          </div>
+          <div class="futureDay">
+            <span>04°</span>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/89d7e033c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
