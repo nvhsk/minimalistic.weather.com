@@ -67,7 +67,6 @@ input {
   border: none;
   background: none;
   border-bottom: 0.5px solid grey;
-   color: white;
 }
 input[placeholder] {
   font-size: 18px;
@@ -80,7 +79,6 @@ input[placeholder] {
   display: inline;
   padding: 7px;
   font-size: 20px;
- 
 }
 
 hr {
@@ -101,10 +99,3 @@ hr {
 .info {
   font-weight: 200;
 }
-
-/* ul {
-  justify-content: space-between;
-}
-.degrees2 {
-  text-align:right;
-} */
